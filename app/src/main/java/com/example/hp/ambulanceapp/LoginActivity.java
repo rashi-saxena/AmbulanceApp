@@ -40,12 +40,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             startActivity(new Intent(this, BaseActivity.class));
         }
 
-        loginEmail = (EditText) findViewById(R.id.loginEmail);
-        loginPassword = (EditText) findViewById(R.id.loginPassword);
+        loginEmail = findViewById(R.id.loginEmail);
+        loginPassword = findViewById(R.id.loginPassword);
 
-        loginBtn = (Button) findViewById(R.id.loginBtn);
+        loginBtn =  findViewById(R.id.loginBtn);
 
-        gotoRegister = (TextView) findViewById(R.id.gotoRegister);
+        gotoRegister = findViewById(R.id.gotoRegister);
 
         progressDialog = new ProgressDialog(this);
 
